@@ -1,0 +1,1 @@
+alert('Cadastrado com sucesso!');window.location = 'formularioCadastro.php';

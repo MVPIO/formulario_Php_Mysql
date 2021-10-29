@@ -1,0 +1,66 @@
+
+body{
+    font-family: Arial,sans-serif;
+}
+
+#caixa{
+     width: 350px; 
+     
+     left: 50%; 
+     margin: -130px 0 0 -210px;         
+     padding:10px;
+     position: absolute; 
+     top: 50%; 
+     background: #ffac14;
+     border: 1px solid #262626;
+         
+}
+#caixa h2{
+   width:500px;
+}
+#caixa form{
+    display: inline-block;
+    width:600px;
+}
+#caixa input{
+    display:block;
+    margin-bottom:15px;
+    padding: 10px 3%;
+    width:50%;
+    
+}
+#caixa label{
+    display: block;
+    font-size:13px;
+    font-weight:300;
+}
+input.button_submit{
+    margin: 0 0 10px 0;
+    padding: 4px 7px;
+    cursor: pointer;
+    border:0px;
+    background: #CC0000;
+    position: relative;
+    
+    border-bottom: 1px double #000000;
+    border-top:1px double #000000;
+    border-left:1px double #000000;
+    border-right: 1px double #000000;
+}
+input.button_reset{
+    margin: 0 0 10px 0;
+    padding: 4px 7px;
+    cursor: pointer;
+    border:0px;
+    background: #CC0000;
+    position: relative;
+    
+    
+    
+}
+input.button_reset:hover{
+    background:#ffffff;
+}
+input.button_submit:hover{
+    background:#ffffff;
+}
